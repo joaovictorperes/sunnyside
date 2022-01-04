@@ -1,0 +1,37 @@
+.header-bg {
+  height: 600px;
+  background: url("../../images/desktop/image-header.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  color: white;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.header-title {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.header-title h1 {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
