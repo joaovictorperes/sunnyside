@@ -4,3 +4,7 @@
 /*Utilidades*/
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
+@import "./utilidades/components.css";
+
+/*Home*/
+@import "../home/introduction.css";
