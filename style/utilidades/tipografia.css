@@ -1,3 +1,7 @@
 .font-par {
   font: 500 1rem/1 "Barlow", sans-serif;
 }
+
+.font-tit {
+  font: 700 0.8rem/1 "Fraunces", sans-serif;
+}

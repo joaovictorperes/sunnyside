@@ -1,0 +1,47 @@
+:root {
+  /* Primary */
+  --s-red: hsl(7, 99%, 70%);
+  --yel: hsl(51, 100%, 49%);
+  --d-cyan: hsl(167, 40%, 24%);
+  --d-blue: hsl(198, 62%, 26%);
+  --d-c-mod: hsl(168, 34%, 41%);
+
+  /* Neutral */
+  --v-d-blue: hsl(212, 27%, 19%);
+  --v-d-g-blue: hsl(213, 9%, 39%);
+  --d-g-blue: hsl(232, 10%, 55%);
+  --g-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.color-p1 {
+  color: var(--s-red);
+}
+.color-p2 {
+  color: var(--yel);
+}
+.color-p3 {
+  color: var(--d-cyan);
+}
+.color-p4 {
+  color: var(--d-blue);
+}
+.color-p5 {
+  color: var(--d-c-mod);
+}
+
+.color-1 {
+  color: var(--v-d-blue);
+}
+.color-2 {
+  color: var(--v-d-g-blue);
+}
+.color-3 {
+  color: var(--d-g-blue);
+}
+.color-4 {
+  color: var(--g-blue);
+}
+.color-5 {
+  color: var(--white);
+}
