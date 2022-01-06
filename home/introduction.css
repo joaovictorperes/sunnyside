@@ -7,8 +7,10 @@
   display: grid;
   grid-template-columns: 1fr;
   width: 50ch;
+  margin: 40px;
   align-content: center;
   justify-self: center;
+  position: relative;
 }
 
 .introduction-content h2 {
@@ -16,9 +18,59 @@
 }
 
 .introduction-content p {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
+}
+
+.introduction-content a {
+  text-transform: uppercase;
+  max-width: max-content;
+  padding: 10px 0px;
+  position: relative;
 }
 
 .introduction img {
+  box-sizing: border-box;
   width: 100%;
+  margin: 0px;
+}
+
+.introduction-content a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 110%;
+  height: 8px;
+  border-radius: 4px;
+  top: 21px;
+  left: -5px;
+  background-color: var(--color-p2);
+  z-index: -1;
+  transition: 0.3s;
+}
+
+.introduction-content a:hover::before {
+  background-color: rgba(255, 230, 0, 0.74);
+}
+
+img + .introduction-content a::before {
+  background-color: var(--color-p1);
+}
+
+img + .introduction-content a:hover::before {
+  background-color: rgba(255, 0, 0, 0.692);
+}
+
+.introduction-information-1,
+.introduction-information-2 {
+  background-size: cover;
+  object-fit: cover;
+  height: 833px;
+}
+
+.introduction-information-1 {
+  background-image: url("../images/desktop/image-graphic-design.jpg");
+}
+
+.introduction-information-2 {
+  background-image: url("../images/desktop/image-photography.jpg");
 }

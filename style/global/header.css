@@ -35,11 +35,11 @@
   margin-bottom: 60px;
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .header-menu .nav-contact {
-  background-color: white;
+  background-color: var(--color-5);
   text-transform: uppercase;
   padding: 15px 20px;
   border-radius: 50px;
@@ -47,6 +47,6 @@
 }
 
 .nav-contact:hover {
-  color: white;
+  color: var(--color-5);
   background-color: rgba(255, 255, 255, 0.349);
 }
