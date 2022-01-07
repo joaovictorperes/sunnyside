@@ -1,6 +1,8 @@
 .introduction {
+  background-color: rgb(245, 245, 245);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .introduction-content {
@@ -26,6 +28,7 @@
   max-width: max-content;
   padding: 10px 0px;
   position: relative;
+  z-index: 2;
 }
 
 .introduction img {
@@ -63,8 +66,9 @@ img + .introduction-content a:hover::before {
 .introduction-information-1,
 .introduction-information-2 {
   background-size: cover;
-  object-fit: cover;
-  height: 833px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
 }
 
 .introduction-information-1 {
@@ -73,4 +77,24 @@ img + .introduction-content a:hover::before {
 
 .introduction-information-2 {
   background-image: url("../images/desktop/image-photography.jpg");
+}
+
+.grid-information {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  width: 40ch;
+  margin: 40px;
+  align-content: end;
+  justify-self: center;
+}
+
+.grid-information h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.grid-information h3,
+.grid-information p {
+  color: rgba(0, 0, 0, 0.651);
 }
