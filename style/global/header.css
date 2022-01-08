@@ -26,8 +26,10 @@
 
 .header-title {
   display: grid;
-  grid-template-columns: 1fr;
   justify-items: center;
+  text-align: center;
+  word-wrap: break-word;
+  box-sizing: border-box;
 }
 
 .header-title h1 {
@@ -50,3 +52,13 @@
   color: var(--color-5);
   background-color: rgba(255, 255, 255, 0.349);
 }
+
+@media (max-width: 770px) {
+  .header-title h1 {
+    font-size: 2rem;
+  }
+
+  .header-title img {
+    height: 100px;
+  }
+} ;
