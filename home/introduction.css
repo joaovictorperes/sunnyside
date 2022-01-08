@@ -1,14 +1,14 @@
 .introduction {
   background-color: rgb(245, 245, 245);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(500px, 1fr) minmax(500px, 1fr);
   grid-template-rows: 1fr 1fr 1fr;
 }
 
 .introduction-content {
   display: grid;
   grid-template-columns: 1fr;
-  width: 50ch;
+  max-width: 50ch;
   margin: 40px;
   align-content: center;
   justify-self: center;
@@ -31,10 +31,9 @@
   z-index: 2;
 }
 
-.introduction img {
-  box-sizing: border-box;
+.introduction-image {
+  object-fit: fill;
   width: 100%;
-  margin: 0px;
 }
 
 .introduction-content a::before {
@@ -97,4 +96,15 @@ img + .introduction-content a:hover::before {
 .grid-information h3,
 .grid-information p {
   color: rgba(0, 0, 0, 0.651);
+}
+
+@media (max-width: 1050px) {
+  .introduction {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .introduction-content + .introduction-image {
+    grid-row: 1;
+  }
 }
