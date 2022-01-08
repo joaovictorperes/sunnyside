@@ -1,3 +1,4 @@
+/*Introduction*/
 .introduction {
   background-color: rgb(245, 245, 245);
   display: grid;
@@ -62,6 +63,7 @@ img + .introduction-content a:hover::before {
   background-color: rgba(255, 0, 0, 0.692);
 }
 
+/*Introduction - background images*/
 .introduction-information-1,
 .introduction-information-2 {
   background-size: cover;
@@ -98,6 +100,7 @@ img + .introduction-content a:hover::before {
   color: rgba(0, 0, 0, 0.651);
 }
 
+/*Media queries*/
 @media (max-width: 1050px) {
   .introduction {
     grid-template-columns: minmax(200px, 1fr);
