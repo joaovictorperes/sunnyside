@@ -1,6 +1,5 @@
 /*Introduction*/
 .introduction {
-  background-color: rgb(245, 245, 245);
   display: grid;
   grid-template-columns: minmax(500px, 1fr) minmax(500px, 1fr);
   grid-template-rows: 1fr 1fr 1fr;
@@ -73,11 +72,11 @@ img + .introduction-content a:hover::before {
 }
 
 .introduction-information-1 {
-  background-image: url("../images/desktop/image-graphic-design.jpg");
+  background-image: url("../../images/desktop/image-graphic-design.jpg");
 }
 
 .introduction-information-2 {
-  background-image: url("../images/desktop/image-photography.jpg");
+  background-image: url("../../images/desktop/image-photography.jpg");
 }
 
 .grid-information {
