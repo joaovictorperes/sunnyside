@@ -119,5 +119,11 @@ img + .introduction-content a:hover::before {
   .introduction-content {
     text-align: center;
     justify-items: center;
+    margin: 25px;
+  }
+
+  .grid-information h3 {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
   }
 }
