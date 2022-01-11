@@ -1,5 +1,5 @@
 .testimonials {
-  padding: 100px 20px;
+  padding: 80px 25px;
 }
 
 .testimonials h3 {
@@ -15,13 +15,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  padding: 40px;
+  padding: 0px 40px;
 }
 
 .testimonials-content {
   display: grid;
   justify-items: center;
   text-align: center;
+  grid-template-rows: min-content;
 }
 
 .testimonials-content img {
@@ -31,4 +32,15 @@
 
 .testimonials-content p {
   margin-bottom: 50px;
+  max-width: 40ch;
+}
+
+.names {
+  display: grid;
+  align-content: end;
+  grid-template-rows: min-content min-content;
+}
+
+span.font-par {
+  font-size: 0.9rem;
 }
