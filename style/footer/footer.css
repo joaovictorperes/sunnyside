@@ -1,0 +1,29 @@
+footer .container {
+  background-color: var(--color-p5);
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding: 80px;
+  gap: 50px;
+}
+
+.footer-content > img {
+  width: 200px;
+}
+
+.footer-items ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 30px;
+  font-size: 1.2rem;
+}
+
+.footer-contact {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+}

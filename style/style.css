@@ -11,3 +11,9 @@
 
 /*Testimonials*/
 @import "./testimonials/testimonials.css";
+
+/*Images Section*/
+@import "./images-section/images-section.css";
+
+/*Footer*/
+@import "./footer/footer.css";
