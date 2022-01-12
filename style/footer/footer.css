@@ -10,7 +10,7 @@ footer .container {
   gap: 50px;
 }
 
-.footer-content > img {
+.footer-content > a > img {
   width: 200px;
 }
 
@@ -24,7 +24,6 @@ footer .container {
 
 .footer-items li {
   cursor: pointer;
-  margin: 0px 10px;
 }
 
 .footer-items li:hover {
@@ -33,6 +32,7 @@ footer .container {
 
 .footer-contact-items {
   display: grid;
+  align-items: center;
   gap: 30px;
   grid-template-columns: repeat(4, 1fr);
 }
