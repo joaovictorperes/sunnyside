@@ -1,4 +1,4 @@
-# <img alt="Readme-title" title="Readme-title" src="./gifs-images/sunnyside-title.png" >
+# <img alt="Readme-title" title="Readme-title" src="./github/gifs-images/sunnyside-title.png" >
 
 <p> O projeto Sunnyside foi feito com base na proposta do site Frontend Mentor e consiste na criação de uma landing page responsiva com o tema da agência fictícia Sunnyside, especializada no desenvolvimento de marcas.</p> 
 <p>Na landing page são mostradas informações, técnicas utilizadas pela empresa e testemunhos dos clientes. Abaixo o processo de criação será detalhado.</p>
@@ -11,7 +11,7 @@
 </p>
 
 <h1 align="center">
-  <img alt="Readme" title="Readme" src="./gifs-images/gif.gif" />
+  <img alt="Readme" title="Readme" src="./github/gifs-images/gif.gif" />
 </h1>
 
 </br>
