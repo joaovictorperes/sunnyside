@@ -22,8 +22,70 @@ footer .container {
   font-size: 1.2rem;
 }
 
-.footer-contact {
+.footer-items li {
+  cursor: pointer;
+  margin: 0px 10px;
+}
+
+.footer-items li:hover {
+  color: var(--color-5);
+}
+
+.footer-contact-items {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-contact-items li:hover path {
+  fill: var(--color-5);
+}
+
+hr {
+  background-color: var(--color-p3);
+  margin: 0px;
+  padding: 0px;
+  border-color: var(--color-p5);
+}
+
+.attribution {
+  text-align: center;
+  padding: 30px;
+}
+
+.attribution span {
+  color: var(--color-5);
+}
+
+.attribution span:hover {
+  color: rgb(23, 158, 118);
+}
+
+@media (max-width: 450px) {
+  .footer-content {
+    padding: 40px 25px;
+  }
+
+  .footer-content > img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 330px) {
+  .footer-content {
+    padding: 40px 25px;
+  }
+
+  .footer-items ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+  }
+
+  .footer-contact-items {
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
